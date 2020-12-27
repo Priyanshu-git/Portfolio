@@ -17,21 +17,21 @@
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
-    padding: 1.7rem;
+    padding: 1rem 2rem;
     color: var(--title-color);
 }
 
 .header_area .main-menu .navbar-nav .active a{
-    background: linear-gradient(90deg,#4458dc,#854fee) !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    background-clip: text !important;
+    background: linear-gradient(90deg,#4458dc,#854fee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 .header_area .main-menu .navbar-nav a:hover{
-    background: linear-gradient(90deg,#4458dc,#854fee) !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    background-clip: text !important;
+    background: linear-gradient(90deg,#4458dc,#854fee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 /* =====================  END NAVIGATION ========================*/
@@ -279,3 +279,27 @@ body > main > section:nth-child(6) > div.container.carousel.py-lg-5 > div > div.
 
 /* ====================  END ABOUT ME AREA  ====================== */
 
+
+/* ====================  FOOTER AREA  ====================== */
+
+footer.footer-area{
+	padding: 5rem 0;
+	background: url("../img/footer-bg.png");
+}
+
+footer.footer-area .social h5{
+	font: normal 500 23px/30px var(--roboto);
+}
+
+footer.footer-area .social a>i{
+	font-size: 22px;
+	padding: 2rem;
+	color: var(--border-color);
+}
+
+footer.footer-area .social a:hover >i{
+	color: var(--primary-color);
+}
+
+
+/* ====================  END FOOTER AREA  ====================== */

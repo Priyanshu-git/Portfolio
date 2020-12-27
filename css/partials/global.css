@@ -19,7 +19,7 @@
      background: var(--gradient-color);
      background-clip: padding-box;
      color: whitesmoke;
-     transition:background0.6s ease;
+     transition:background 0.6s ease;
      box-shadow: var(--shadow-color);
  }
 
@@ -43,7 +43,7 @@
 .button.secondary-button{
     background: white;
     background-clip: padding-box;
-    transition:background0.6s ease;
+    transition:background 0.6s ease;
 }
 
 .button.secondary-button:hover{
@@ -68,4 +68,15 @@ button:hover
 .btn.active{
     outline: 0px !important;
     box-shadow: none !important;
+}
+
+.navbar_fixed{
+	position: fixed;
+	width: 100%;
+	top: -1px;
+	left: 0; right: 0;
+	background: #ffffff;
+	box-shadow: var(--shadow-color);
+	z-index: 999;
+	transition: background 1s ease;
 }
