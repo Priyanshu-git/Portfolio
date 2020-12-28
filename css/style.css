@@ -105,24 +105,31 @@ width: 90rem;
 .site-main .brand-area .first-row .col-lg-4 > .single-brand{
     border: 1px solid var(--border-color);
     text-align: center;
-    padding: 1.8rem 0rem;
-    margin: .9rem 0;
+    padding: 1.2rem 0rem;
+    margin: .7rem 0;
     width: 180px;
     height: 100px;
     cursor: pointer;
+    filter: grayscale(100%);
     transition: transform 0.4s ease;
 }
 .site-main .brand-area .first-row .col-lg-4 > .single-brand > .img{
-    width: 50%;
+    width: 100%;
+}
+
+body > main > section.brand-area > div > div > div:nth-child(1) > div > div > div > img{
+    height: 95%;
+    
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
     box-shadow: var(--shadow-color);
+    filter: grayscale(0%);
     transform: scale(1.2,1.2);
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > img{
-    filter: brightness(0.15);
+    /* sxdcfvghbjn */
 }
 
 .site-main .brand-area .experience-area{
@@ -217,6 +224,17 @@ width: 90rem;
 
 .site-main .project-area .grid .our-project > .title h4{
     font: normal 700 25px/12px var(--roboto);
+}
+
+body > main > section.project-area > div > div.row.grid > div > div > div.img > a > img{
+    
+    width: 20vw;
+    height: auto;
+}
+
+body > main > section.project-area > div > div.row.grid{
+    align-self: center;
+    align-items: center;
 }
 
 .site-main .project-area .grid .our-project .img a:hover img{

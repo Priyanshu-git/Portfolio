@@ -1,6 +1,6 @@
 /*IF THE VIEWPORT IS <= 340px */
 
-@media only screen and (max-width:340px){
+@media only screen and (max-width:376px){
 	.header_area .main-menu .navbar,
 	.header_area .main-menu .navbar .navbar-brand,
 	.site-main .services-area{
@@ -14,6 +14,11 @@
 	
 	.site-main > .services-area .services{
 		width: 13rem;
+	}
+
+	body > main > section.project-area > div > div.row.grid > div > div > div.img > a > img{
+		margin-left: 20vw;
+		width: 60vw;
 	}
 }
 
@@ -44,6 +49,11 @@
 	
 	.site-main .about-area .about-title p{
 		padding: 0%;
+	}
+
+	body > main > section.project-area > div > div.row.grid > div > div > div.img > a > img{
+		width: 40vw;
+		align-self: center;
 	}
 	
 }
