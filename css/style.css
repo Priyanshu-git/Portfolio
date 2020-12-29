@@ -15,7 +15,7 @@
 }
 
 .header_area .main-menu .navbar .navbar-brand > img{
-    height: 50px;
+    height: 7vh;
 	width: auto;
 }
 
@@ -316,8 +316,8 @@ body > main > section:nth-child(6) > div.container.carousel.py-lg-5 > div > div.
 /* ====================  FOOTER AREA  ====================== */
 
 footer.footer-area > div > div> div > a > img{
-	height: 20vw;
-	width: auto;
+	width: 20vw;
+	height: auto;
 }
 
 footer.footer-area{
