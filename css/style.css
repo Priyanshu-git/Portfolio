@@ -14,6 +14,11 @@
     padding: 0 2rem 0 5rem;
 }
 
+.header_area .main-menu .navbar .navbar-brand > img{
+    height: 50px;
+	width: auto;
+}
+
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
@@ -87,6 +92,16 @@ width: 90rem;
 .site-main .about-area .about-title .paragraph > .p{
     padding: 4rem 0;
 }
+
+.site-main .about-area .para{
+	font-family: lato;
+}
+
+.site-main .about-area > div > div > .head2 > h2 >span{
+	font-family: var(--roboto);
+	font-size: 35px;
+}
+
 /* ================== END ABOUT AREA ================== */
 
 
@@ -299,6 +314,11 @@ body > main > section:nth-child(6) > div.container.carousel.py-lg-5 > div > div.
 
 
 /* ====================  FOOTER AREA  ====================== */
+
+footer.footer-area > div > div> div > a > img{
+	height: 20vw;
+	width: auto;
+}
 
 footer.footer-area{
 	padding: 5rem 0;
