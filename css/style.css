@@ -10,12 +10,16 @@
 
 /* ====================  START NAVIGATION ========================*/
 
+html{
+	scroll-behavior: smooth;
+}
+
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
 }
 
 .header_area .main-menu .navbar .navbar-brand > img{
-    height: 7vh;
+    height: 6vh;
 	width: auto;
 }
 
@@ -109,6 +113,7 @@ width: 90rem;
 
 .site-main .brand-area{
     padding: 1rem 20rem;
+    margin: 0 18%;
     margin-bottom: 4rem;
 }
 
@@ -117,11 +122,15 @@ width: 90rem;
     justify-content: center;
 }
 
+body > main > section.brand-area > div > div{
+    justify-content: center;
+}
+
 .site-main .brand-area .first-row .col-lg-4 > .single-brand{
     border: 1px solid var(--border-color);
     text-align: center;
     padding: 1.2rem 0rem;
-    margin: .7rem 0;
+    margin: 2rem 0;
     width: 180px;
     height: 100px;
     cursor: pointer;
@@ -132,9 +141,8 @@ width: 90rem;
     width: 100%;
 }
 
-body > main > section.brand-area > div > div > div:nth-child(1) > div > div > div > img{
-    height: 95%;
-    
+body > main > section.brand-area > div > div > div:nth-child(1) > div > div > div > img {
+    height: 95%;   
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
@@ -194,7 +202,7 @@ body > main > section.brand-area > div > div > div:nth-child(1) > div > div > di
 /* ====================  SERVICES AREA  ====================== */
 
 .site-main .services-area{
-    padding: 7rem 2rem;
+    padding: 7rem 2rem 2rem 2rem;
 }
 
 .site-main .services-area .services-title{
@@ -284,6 +292,17 @@ body > main > section.project-area > div > div.row.grid{
 
 .site-main .about-area .client .about-client h4{
 	font: normal 500 21px/20px var(--roboto);
+	
+}
+
+.site-main .about-area .client .about-client h4 > a{
+	color: black;
+	text-decoration: none;
+	transition: color 0.4s;
+}
+
+.site-main .about-area .client .about-client h4 > a:hover{
+	color: var(--primary-color2);
 }
 
 .site-main .about-area .client .about-client p{
@@ -296,7 +315,7 @@ body > main > section.project-area > div > div.row.grid{
 	padding: 0 1.5rem;
 }
 
-body > main > section:nth-child(6) > div.container.carousel.py-lg-5 > div > div.owl-dots > .owl-dot.active > span{
+#id_projects > div.container.carousel.py-lg-5 > div > div.owl-dots > button.owl-dot.active > span{
 	background: var(--primary-color);
 	width: 12px;
 	height: 12px;
@@ -316,7 +335,7 @@ body > main > section:nth-child(6) > div.container.carousel.py-lg-5 > div > div.
 /* ====================  FOOTER AREA  ====================== */
 
 footer.footer-area > div > div> div > a > img{
-	width: 20vw;
+	width: 12vw;
 	height: auto;
 }
 
