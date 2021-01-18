@@ -55,7 +55,8 @@ html{
     font-weight: 500;
 }
 
-.site-main .site-banner .site-title h3::after{
+/*
+.site-main .site-banner .site-title h3::{
     content: "";
     height: 2px;
     width: 18vw;
@@ -64,6 +65,7 @@ html{
     margin-left: 5%;
     transform: translateY(-10px);
 }
+*/
 
 .site-main .site-banner .site-title h1{
 font-size: 5rem;
