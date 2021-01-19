@@ -18,5 +18,5 @@ html, body{
 
     
     /* FONT FAMILY VARIABLES */
-    --roboto:'Roboto';
+    --roboto:'Roboto',cursive;
 }

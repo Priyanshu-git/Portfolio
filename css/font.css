@@ -3,5 +3,6 @@
 /*Font face*/
 
 @font-face{
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto';
+	src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
