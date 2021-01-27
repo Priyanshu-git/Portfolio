@@ -18,9 +18,12 @@ html{
     padding: 0 2rem 0 5rem;
 }
 
-.header_area .main-menu .navbar .navbar-brand > img{
-    height: 6vh;
-	width: auto;
+.header_area .main-menu .navbar .navbar-brand > span{
+    font-family: 'Panton', cursive;
+	font-size: x-large;
+}
+#cap{
+	font-size: xx-large;
 }
 
 .header_area .main-menu .nav-item .nav-link{

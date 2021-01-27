@@ -5,3 +5,12 @@
 @font-face{
 	font-family: 'Roboto',serif;
 }
+
+@font-face{
+	font-family: 'Audiowide', cursive;
+}
+
+@font-face{
+	font-family: 'Panton';
+	src: url("../font/Panton-LightCaps.otf");
+}
