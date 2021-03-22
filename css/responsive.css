@@ -79,3 +79,12 @@
 		padding: 3% 4%;
 	}
 }
+
+@media only screen and (min-width:2560px)
+{
+	body > main > section.project-area > div > div.row.grid > div > div > div.img > a > img{
+    
+		width: 11vw;
+		height: auto;
+	}
+}
