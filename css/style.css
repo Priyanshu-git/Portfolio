@@ -242,12 +242,19 @@ body > main > section.brand-area > div > div > div:nth-child(1) > div > div > di
 .site-main .project-area .button-group button{
     background: transparent;
     border: none;
-    font: normal 500 16px/130px var(--roboto);
+    font: normal 500 16px/30px var(--roboto);
     text-transform: uppercase;
 }
 
 .site-main .project-area .button-group button + button{
-    padding-left: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+}
+
+body > main > section.project-area > div >div.button-group > button.active {
+    color: var(--primary-color);
+    font-weight: bold;
+    border-bottom: solid var(--primary-color) 3px;
 }
 
 .site-main .project-area .grid .our-project > .title h4{
@@ -326,13 +333,7 @@ body > main > section.project-area > div > div.row.grid{
 	height: 12px;
 }
 
-/*
-.site-main .about-us .owl-carousel .owl-dots .owl-dot.active span{
-	background: var(--primary-color);
-	width: 12px;
-	height: 12px;
-}
-*/
+
 
 /* ====================  END ABOUT ME AREA  ====================== */
 
