@@ -118,7 +118,7 @@ width: 90rem;
 
 .site-main .brand-area{
     padding: 1rem 20rem;
-    margin: 0 18%;
+    margin: 1rem 18%;
     margin-bottom: 4rem;
 }
 
@@ -222,7 +222,7 @@ body > main > section.brand-area > div > div > div:nth-child(1) > div > div > di
     background-color: rgba(245, 253, 255, 0.856);
     padding: 2rem 0;
     width: 16rem;
-    margin: 5rem .5rem;
+    margin: 2rem .5rem;
     transition: .7s ease;
 }
 .site-main > .services-area .services:hover{
@@ -357,7 +357,7 @@ footer.footer-area .social h5{
 footer.footer-area .social a>i{
 	font-size: 22px;
 	padding: 2rem;
-	color: var(--border-color);
+	color: #afafaf;
 }
 
 footer.footer-area .social a:hover >i{
@@ -366,3 +366,7 @@ footer.footer-area .social a:hover >i{
 
 
 /* ====================  END FOOTER AREA  ====================== */
+
+.copyrights > .para{
+    color: #666666;
+}
